@@ -4,29 +4,36 @@
 }
 body{
 	background-color:var(--main-color);
+	margin: 0;
+    font-family: Arial, sans-serif;
 }
-div p:first-child{
+article p:first-child{
 	color:white;
 	background-color:black;
+	padding:10px;
 }
-div p:nth-child(2){
+article p:nth-child(2){
 	clor:black;
 }
-div p:last-child{
+article p:last-child{
 	color:red;
 }
 ul{
-	width:50%;
+	list-style-type:none;
+	padding:0;
 }
 ul li{
 	background-color:gray;
+	width:50%;
+	padding:10px;
+	margin:5px 0;
 }
 ul li:nth-child(odd){
 	background-color:white;
 }
-ul li:first-child,li:last-child{
+ul li:first-child, ul li:last-child{
 	font-size:22px;
 }
-ul li:nth-child(3){
+ul li:nth-last-child(3){
 	background-color:pink;
 }
